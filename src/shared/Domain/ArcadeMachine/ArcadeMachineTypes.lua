@@ -15,6 +15,7 @@ export type ArcadeMachineModel = {
 	IsEnhanced: boolean,
 	CollectedMoney: number,
 	GameEndTime: number, -- 0 if not playing
+    RepairEndTime: number, -- 0 if not repairing
 	Config: ArcadeMachineConfigType,
 }
 
